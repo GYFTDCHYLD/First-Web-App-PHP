@@ -1,0 +1,213 @@
+html{background:#6699ff;
+}@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+html{
+                 font-size:1em;
+                
+}}
+#main {
+    margin: auto;
+	border: 1px solid gold;
+	width: 450px;
+    min-height:150px;
+	background: #F1F3F5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    font-size : 12px;
+    border-collapse:collapse;
+	background-image: -o-linear-gradient(bottom, rgb(167,9,246) 11%,
+rgb(194,242,242) 56%);
+background-image: -moz-linear-gradient(bottom, rgb(167,9,246) 11%,
+rgb(194,242,242) 56%);
+background-image: -webkit-linear-gradient(bottom, rgb(167,9,246) 11%,
+rgb(194,242,242) 56%);
+background-image: -ms-linear-gradient(bottom, rgb(167,9,246) 11%, rgb(194,242,242) 56 %);
+background-image: -webkit-gradient(linear, left bottom, left top,
+color-stop(0.11, rgb(167,9,246)),
+color-stop(0.56, rgb(194,242,242)) );
+background-image: linear-gradient(to top, yellow 11%, black
+56%);
+-webkit-box-shadow : 0 10px 10px rgba(0,0,0,0.6);
+-webkit-border-radius : 25px;
+-moz-border-radius : 25px;
+}@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+#main{
+  margin-left:2px;
+Width:98%;
+Height:100%;
+Font-size:0.1em;
+                
+}}
+
+#sender {
+   clear:both;   
+	border: 1px solid #cccccc;
+	width: 356px;
+	background: #E9ECEF;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight:bold;
+   font-size : 12px;
+   padding:2px;
+   margin-bottom:10px;
+   margin-top:10px;
+   margin-left: 60px;
+   -webkit-box-shadow : 0 0px 10px rgba(0,0,0,0.6);
+-webkit-border-radius : 10px;
+-moz-border-radius : 10px;
+}@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+#sender{
+                 font-size:4em;
+          margin-left:-1%;
+                Width:100%;
+			
+}}
+
+td {
+   padding:5px;
+}
+
+#result {
+    margin-top:20px;
+	 border: 1px solid #cccccc;
+	 width: 356px;
+	 background: #E9ECEF;
+    text-align:left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    font-size : 12px;
+    padding:2px;
+    height:400px;
+    overflow:auto;
+	-webkit-border-radius : 5px;
+-moz-border-radius : 5px;
+}@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+#result{
+Width:85%;
+Height:67%;
+Font-size:600%;              
+ margin-top:5%;  
+ margin-left:20px;  
+}}
+
+.error {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:normal;
+    font-size : 10px;
+    color:#dd1111;
+    padding:5px;
+
+}
+
+
+.text {
+	border: 1px solid #cccccc;
+}@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+.text{
+                 font-size:5.8em;
+            
+                
+}}
+
+input {
+    border: 0px solid #cccccc;
+}@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+Input{
+                 font-size:2em;
+          
+                
+}}
+
+
+#caption{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    margin:10px;
+    font-size : 14px;
+    color:#C64934;
+}@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+#caption{
+                 font-size:0.5em;
+          
+                
+}}
+
+#icon{
+    width:60px;
+    height:60px;
+    padding:0px;
+    margin:0px;
+    border:0px;
+    float:left;
+    background-image:url(icon.png);
+    background-repeat: no-repeat;
+    background-position:center center;
+		-webkit-border-radius : 20px;
+-moz-border-radius : 20px;
+}
+
+p{
+    margin:0px;
+    padding:0px;
+}
+
+.name{
+    font-weight:bold;
+    font-style: italic;
+    color:#999;
+}@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+.name{
+                 Color:blue;
+          
+                
+}}
+
+.txt {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:normal;
+    font-size:13px;
+    color:#333;
+}@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+.txt{
+                 font-size:1em;
+
+          
+                
+}}
+
+#mchat{
+    border:0px;
+    width:100%;
+}@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+#mchat{
+                 font-size:3em;
+          
+                
+}}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+Button{
+                 font-size:2em;
+          
+                
+}}

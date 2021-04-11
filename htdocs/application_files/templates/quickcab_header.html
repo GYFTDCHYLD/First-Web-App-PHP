@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/> <!--320-->
+    <meta charset="utf-8">
+	
+	<title>Quick-Cab</title>
+	<link rel="stylesheet" type="text/css" href="css/slide.css" />
+		<script src="js/modernizr.custom.js"></script>
+
+	<link rel="stylesheet" type="text/css"href="css/gyftdchyld.css"  media="screen,projection" />
+	<link rel="stylesheet" type="text/css"href="css/nav.css"  media="screen,projection" />
+    <link rel="stylesheet" type="text/css" href="css/iphone4.css"  media="only screen and (min-device-width : 320px)and (max-device-width : 577px)" />	
+	<link rel="stylesheet" type="text/css" href="css/iphone5.css"  media="only screen and (min-device-width : 320px)and (max-device-width : 568px)" />
+	<link rel="stylesheet" type="text/css" href="css/phone(360v640).css"  media="only screen and (min-device-width : 360px)and (max-device-width : 640px)" />
+	<link rel="stylesheet" type="text/css" href="css/iphone6-8.css" media="only screen and (min-device-width : 375px)and (max-device-width : 667px)" />
+	<link rel="stylesheet" type="text/css" href="css/iphone6-8+.css"  media="only screen and (min-device-width : 414px)and (max-device-width : 736px)" />
+	<script type='text/javascript' src='scripts/js/popup.js'></script>
+	<script type='text/javascript' src='scripts/js/dd_info.js'></script>
+	<script type="text/javascript" src="scripts/js/auto_request_handle.js"></script>
+		<script type="text/javascript" src="scripts/js/lobby.js"></script>
+<script type="text/javascript">
+$(function() {
+$('div.caption button').click(function(){
+$(this).closest('div.module').find('div.boddy')
+.toggle('slow',function(){
+$(this).closest('div.module')
+.toggleClass('rolledup',$(this).is(':hidden'));
+});
+});
+});
+</script>
+</head>
+<marquee id="phone_imgs_head"  behavior="slide" direction="down" scrollamount="20"><img src="images/head1.png" id="phone_imgs_head" ></marquee>
+<div id="wrapper">
+<center><img src="images/head.png" id ="imgs_head" ></center>
+<body>
+	<div id="sun"><marquee behavior="scroll" direction="left" scrollamount="1" ><img src="images/star.png"  width="100" ></marquee></div>
+	<div id="header">
+		<ul id="nav">
+			<li><a href="index"><font color = "blue" size="">HOME</font></a></li>
+		    <li><a href="shedule"><font color = "magenta" size="">SHEDULE</font></a></li>
+			<li><a href="feedback"><font color = "purple" size="">FEEDBACK</font></a></li></font>
+		 </ul>
+
+	</div><!-- header -->
+		
+<div class="module" id="module">
+<div class="caption" id="caption">
+<div class="boddy" id="mi">
+
+<font>Complete & submit form to request a "CAB",   <font color = "red">Destination </font>is optional......</font><a href=javascript:fg_popup_form("fg_formContainer","fg_form_InnerContainer","fg_backgroundpopup")><button><img src="images/DF.png" id= "df"></button></a>
+</div>
+</div>
+</div>
+<div class="qcfold"></div>
+
+<header>
+       <a class="logo"></a>
+          </header>
+             <section id="demos">
+                <ul>
+                   
+               
+			   <div class="button" data-n="0" id="button1"></div>
+			        <div class="demo prez">
+				</div>
+                
+         
+		   	 <div class="button" data-n="1" id="button3"></div>
+                  <div class="demo prez2">
+             </div>
+       
+		
+  
+      
+		   </ul>
+  </section>
+
+<div id='fg_formContainer'>
+    <div id="fg_container_header">
+        
+
+    
+
+    <div id="fg_form_InnerContainer">
+	
+   <form action="quickcab.php" method="post" id="quickcabform">
+	<center><h2><fieldset><legend>
+<div id= "neon"><font ><script type ="text/javascript">
+
+/*
+Neon Lights Text
+By JavaScript Kit (http://javascriptkit.com)
+For this script, TOS, and 100s more DHTML scripts,
+Visit http://www.dynamicdrive.com
+*/
+
+var message="QUICK-CAB"
+var neonbasecolor="black"
+var neontextcolor="aqua"
+var flashspeed=200  //in milliseconds
+
+///No need to edit below this line/////
+
+var n=0
+if (document.all||document.getElementById){
+document.write('<font color="'+neonbasecolor+'">')
+for (m=0;m<message.length;m++)
+document.write('<span id="neonlight'+m+'">'+message.charAt(m)+'</span>')
+document.write('</font>')
+}
+else
+document.write(message)
+
+function crossref(number){
+var crossobj=document.all? eval("document.all.neonlight"+number) : document.getElementById("neonlight"+number)
+return crossobj
+}
+
+function neon(){
+
+//Change all letters to base color
+if (n==0){
+for (m=0;m<message.length;m++)
+//eval("document.all.neonlight"+m).style.color=neonbasecolor
+crossref(m).style.color=neonbasecolor
+}
+
+//cycle through and change individual letters to neon color
+crossref(n).style.color=neontextcolor
+
+if (n<message.length-1)
+n++
+else{
+n=0
+clearInterval(flashing)
+setTimeout("beginneon()",1)
+return
+}
+}
+
+function beginneon(){
+if (document.all||document.getElementById)
+flashing=setInterval("neon()",flashspeed)
+}
+beginneon()
+
+
+</script></div>
+</legend></fieldset></font></h2></center>
+
+	<br />
+	<fieldset><strong>
+    <select name="title" id = "option" title="SELECT YOUR NAME TITLE"  required>
+	<option></option>
+	<option value="Mr.">Mr.</option>
+	<option value="Miss.">Miss.</option>
+	<option value="Mrs.">Mrs.</option>
+	
+	</select> 
+	<input type="text" name="name" size="13" title="ENTER YOUR SURNAME" maxlength=20 min=3 pattern="^[a-zA-Z]'?[- 'a-zA-Z]+$" placeholder="Surname" value="<?php
+	if (isset($_POST['name']))
+	{
+	print htmlspecialchars($_POST['name']); 
+	} ?>" required /><div id="label_for_pc"><label for="name">Surname</label></div><br>
+	
+	
+    <select name="areacode" id = "option">
+	<p><option value="+1(876)">+1(876)</option>
+    </select>
+	<input type="text" name="contact" size="13" title="ENTER YOUR 7 DIGIT 
+CONTACT NUMBER"  min=7 maxlength=7 pattern="^[0-9]'?[- '0-9]+$"  placeholder="Phone Number" required /><div id="label_for_pc"><label for="contact">Contact</label></div></p>
+	</fieldset>
+	
+	
+	
+	<fieldset><br /><p> <input type="text" name="location" maxlength=50 size="26" title="ENTER YOUR LOCATION" placeholder="Location"  required /><div id="label_for_pc"><label for="location">Location</label></div></p>
+	
+	
+	
+	<p> <input type="text" name="destination" title="ENTER YOUR DESTINATION" maxlength=50 placeholder="Destination" size="26" value="<?php
+	if (isset($_POST['destination']))
+	{
+	print htmlspecialchars($_POST['destination']); 
+	} ?>" required /><div id="label_for_pc"><label for="destination">Destination</label></div></p></fieldset>
+	
+	
+	
+		<center><fieldset><select name="response" title="SELECT A RESPONSE TIME" id = "option" required >
+	<option></option>
+	<p><option  value="5 minutes"  > 5 Minutes</option>
+	<option value="10 minutes"  > 10 Minutes</option>
+	<option value="15 minutes"  >15 Minutes</option>
+	<option value="20 minutes"  > 20 Minutes</option> 
+	<option value="25 minutes"  > 25 Minutes</option> 
+	<option value="half hour"  > 30 Minutes</p></select>
+	<label> <center>........response........</center></label>
+	</fieldset></center>
+	
+	</strong>
+	
+	<input type="submit" name="submit" id="submit" value="QUICK CAB" /><img src="images/gc.png" width ="150em" align="right">
+</form> 
+</div> 
+    </div>
+</div>
+<!-- client-side Form Validations:
+Uses the excellent form validation script from JavaScript-coder.com-->
+
+
+
+<div id='fg_backgroundpopup'></div>
+
+
+<script src="scripts/js/oridomi.min.js"></script>
+  <script src="scripts/js/anim.js"></script>
+  <script>
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-33974399-1']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+</body>	
+
+<div id= "qq_rotate"><center><font size="4em"><u>QUICK-CAB</u></font></center></div>
+<div id="content">

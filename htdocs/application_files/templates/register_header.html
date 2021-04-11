@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+	
+	<title>Registration</title>
+	
+	<link rel="stylesheet" href="css/gyftdchyld.css" type="text/css" media="screen,projection" />
+</head>
+<body>
+
+<div id="wrapper">
+	
+	<div id="header">
+		<p class="description">+1 (876) 475-6051</p>
+		<h1><center><font color="gold" size="">THIS IS THE WAY TO TRAVEL!</font></center></a></h1>
+		<ul id="nav">
+		    <li><a href="home.php"><font color = "blue" size="">HOME</font></a></li>
+		    <li><a href="login.php"><font color = "red" size="">LOGIN</font></a></li>
+			<li><a href="quickcab.php"><font color = "green" size="">QUICK CAB</font></a></li>
+		<!--	<li><a href="shedule.php"><font color = "black" size="">SHEDULE</font></a></li> -->
+			<li><a href="feedback.php"><font color = "purple" size="">FEEDBACK</font></a></li></font>
+			
+		
+	
+	</div><!-- header -->
+	
+	<div >
+	<form enctype="multipart/form-data" action="register.php" method="post" id="registrationform">
+	
+	<center><h2><fieldset><legend>REGISTER</legend></h2></center>
+	<hr><br />
+
+	<p><fieldset><select name="title" required>
+	<option></option>
+	<option value="Mr.">Mr.</option>
+	<option value="Miss.">Miss.</option>
+	<option value="Mrs.">Mrs.</option>
+	</select><input type="text" name="first_name" size="10" value="<?php 
+	if (isset($_POST['first_name']))
+	{ 
+	print htmlspecialchars($_POST['first_name']);
+	} ?>" required />  First Name</p>
+	
+	
+
+	<p> <input type="text" name="last_name" size="20" value="<?php
+	if (isset($_POST['last_name']))
+	{ 
+	print htmlspecialchars($_POST['last_name']);
+	} ?>" required />  Last Name</p>
+	
+	
+    <select name="areacode">
+	<option value="+1">+1</option>
+	<p> <input type="numeric" name="contact" size="14" required />  Contact Number</p>
+	
+	
+	
+	<p> <input type="text" name="car_id" size="5" required />  License Plate Number</p>
+	
+	
+	
+	<p><input type="email" name="email" size="20" value="<?php 
+	if (isset($_POST['email']))
+	{ 
+	print htmlspecialchars($_POST['email']);
+	} ?>"  required/>  Email</p>
+	
+	
+
+<p><input type="password" name="password" size="20" value=""  required />  Password</p>
+<p><input type="password" name="password2" size="20" value="" required />  Confirm Password</p>
+	
+   
+	<fieldset><legend>Select a JPEG or PNG image:</legend>
+	
+	<p><b>File:</b> <input type="file" name="upload" /></p>
+	</fieldset>
+	<br /><p><input type="checkbox" name="terms" value="Yes" required /> I agree to the terms.</p><br />
+	<p><input type="submit" name="submit" value="Register" /></fieldset></p>
+
+</form>
+</div>
+
+
+	<div id="content">
+	
+ 		<!-- BEGIN CHANGEABLE CONTENT. -->
+		<!-- Script 8.2 - header.html -->

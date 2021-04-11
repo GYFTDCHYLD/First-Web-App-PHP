@@ -1,0 +1,158 @@
+/* The icons */
+.cbp_tmtimeline > li .cbp_tmicon {
+
+	width: 40px;
+	height: 40px;
+	font-family: 'ecoico';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	font-size: 2em;
+	line-height: 40px;
+	-webkit-font-smoothing: antialiased;
+	position: absolute;
+	color: #fff;
+	background: white;
+	border-radius: 50%;
+	box-shadow: 0 0 0 8px red;
+	text-align: center;
+	left: 5%;
+	top: 0;
+	margin: 0 0 0 -25px;
+}@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px){
+.cbp_tmtimeline > li .cbp_tmicon {
+font-weight:bold;
+font-size:0.3em;
+
+}}
+
+.cbp_tmtimeline {
+	margin: 0px 0 0 0;
+	padding: 0;
+	list-style: none;
+	position: relative;
+} 
+
+/* The line */
+.cbp_tmtimeline:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 10px;
+	background: gold;
+	left: 5%;
+	margin-left: -10px;
+
+}
+
+/* The date/time */
+.cbp_tmtimeline > li .cbp_tmtime {
+	display: block;
+	width: 25%;
+	padding-right: 10px;
+	position: absolute;
+}
+
+.cbp_tmtimeline > li .cbp_tmtime span {
+	display: block;
+	text-align: right;
+}
+
+.cbp_tmtimeline > li .cbp_tmtime span:first-child {
+	font-size: 0.4em;
+	color: #bdd0db;
+}
+
+.cbp_tmtimeline > li .cbp_tmtime span:last-child {
+	font-size: 0.9em;
+	color: #3594cb;
+}
+
+.cbp_tmtimeline > li:nth-child(odd) .cbp_tmtime span:last-child {
+	color: #6cbfee;
+}
+
+/* Right content */
+.cbp_tmtimeline > li .cbp_tmlabel {
+	margin: 0 0 5px 8%;
+	color: #fff;
+	padding: 1em;
+	font-size: 1em;
+	font-weight: 300;
+	line-height: 1.4;
+	position: relative;
+	border-radius: 5px;
+	width:55%;
+	
+	
+box-shadow: 0px 1px 10px yellow;	
+transition: 1s all ease-in-out;
+
+}@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px){
+.cbp_tmtimeline > li .cbp_tmlabel {
+margin-left:2.5em;
+width:70%;
+font-size:50%;
+}}
+#m_head{
+-moz-border-radius : 10px;
+	-webkit-border-radius : 10px;
+	-webkit-box-shadow : 0px 1px 10px rgba(0,0,0,0.6);
+	padding:-5px;
+
+	background:magenta;
+	margin-top:-2px;
+}
+
+.cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel {
+	background: #6cbfee;
+}
+
+.cbp_tmtimeline > li .cbp_tmlabel h2 { 
+	margin-top: 0px;
+	padding: 0 0 10px 0;
+	border-bottom: 1px solid rgba(255,255,255,0.4);
+}
+
+/* The triangle */
+.cbp_tmtimeline > li .cbp_tmlabel:after {
+	right: 100%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-right-color: #3594cb;
+	border-width: 10px;
+	top: 10px;
+}
+
+.cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel:after {
+	border-right-color: #6cbfee;
+}
+
+
+
+.cbp_tmicon-phone:before {
+	content: "\e000";
+}
+
+.cbp_tmicon-screen:before {
+	content: "\e001";
+}
+
+.cbp_tmicon-mail:before {
+	content: "\e002";
+}
+
+.cbp_tmicon-earth:before {
+	content: "\e003";
+}

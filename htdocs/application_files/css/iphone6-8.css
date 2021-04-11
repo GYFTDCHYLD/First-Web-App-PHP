@@ -1,0 +1,1395 @@
+/* nav start  */
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px)
+and (orientation:portrait){
+html{
+
+}
+
+#a {
+		width : 113px;
+		}
+
+#imgs_head { 
+display:none;
+}
+
+#phone_imgs_head{ 
+display:block;
+background : transparent;      
+width:346px;
+height:11.2em;
+transition: 1.3s all ease-in-out;
+ -webkit-border-radius : 20px;
+margin-top:-1px;           
+clear: both; 
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+    box-shadow: 0px 0px 10px grey;
+	border-top:4px solid white;
+}
+#sun{
+display:none;
+}
+#city{
+display:none;
+}
+
+#city2{
+display:none;
+}
+#city3{
+display:none;
+}
+
+#airport{
+display:none;
+}
+
+#road{
+display:none;
+}
+
+#passenger{
+display:none;
+}
+
+#passenger2{
+display:none;
+}
+#home_info{
+position:relative;
+margin-left:2.4em; 
+margin-top:-12em;
+font-size:4em;
+font-weight: bold;
+color:white;
+width:367px;
+  padding: 0px;
+-webkit-border-radius : 10px; 
+-webkit-border-radius :10px;
+-moz-border-radius : 10px;
+text-shadow: 2px 2px 4px black;
+}
+
+
+#tour_page{
+display:none;
+}#tour_page2{
+display:none;
+}
+
+#shedule_page{
+display:none;
+}
+
+#feedback_page{
+display:none;
+}
+
+#mi{ /*info to display form*/
+margin-top:-26em;
+margin-left:1%;
+width:327px;
+font-size:1.5em;
+font-weight:bold;
+background:#66ccff;
+-webkit-box-shadow : 0 5px 10px rgba(0,0,0,0.5);
+}
+
+ #hnav {/*home nav*/
+ float:middle;
+	padding:1px;
+	padding-right:0em;
+	margin-top:1em;
+	margin-left:2px;
+	width:360px;
+	height:40px;
+	 margin-bottom:1em;
+	 box-shadow: 0px 1px 30px pink;
+}ul#hnav a{/*nav button*/
+
+  font-size: 1.15rem;
+  font-weight: bold;
+  padding: 0.2rem;
+  margin-left:0em;
+  position: relative;
+}
+
+ #nav {
+ float:middle;
+	padding:1px;
+	padding-right:0em;
+	margin-top:1em;
+	margin-left:2px;
+	width:360px;
+	height:40px;
+	 margin-bottom:3em;
+-webkit-box-shadow : 0 5px 10px rgba(0,0,0,0.5);
+}ul#nav a{
+font-size: 1.15rem;
+  font-weight: bold;
+  padding: 0.3rem;
+  margin-left:0.17em;
+  position: relative;
+}
+
+#contact{
+		margin-left: -18.7em;
+		margin-top: 17em;
+		width:100%;
+		position:absolute; 
+		float:left;
+		right:0px;
+		}
+		
+#chat_tex{
+	width: 250px;
+}
+
+ #chat{
+	width: 310px;
+}
+
+#lobby_video{
+display:none;
+background:transparent;
+	}
+	
+	#lobby_exit{
+width:260px;
+height:0.9em;
+top:-43.5em;
+margin-left:-2.7em;
+position:relative;
+}
+
+#lobby2{
+margin-left:-1.5em;
+margin-top:-41.5em;
+width:265px;
+}
+#lobby3{
+border-width:10px;
+left: 30%;
+	margin-left:-2.5em;
+	margin-top:14em;
+margin-left:-1.5em;
+width:265px;
+}
+
+#lobby5{
+border-width:15px;
+left: 45%;
+	margin-left:-2.3em;
+	margin-top:-5em;
+}
+
+#a {
+		width : 113px;
+}
+
+
+#Phone_message{
+
+width:315px;
+}
+
+#drvr_image{
+width:3.5em;
+margin-top:-1.5em;
+margin-left:2.5em;
+
+}#driver_msg{
+	position:relative;
+font:1.05em/1 times new roman,sans-serif;
+	background:#f7e98;
+	width:205px;
+	margin-left:7em;
+	padding-left:5px;
+	padding-top:6px;
+	padding-bottom:6px;
+	-moz-border-radius : 4px;
+	-webkit-border-radius : 10px;
+	box-shadow: 0px 0px 10px grey;
+	margin-top:-17em;
+	color:#000099; 
+	}
+
+#me_driver{
+display:none;
+}
+
+	
+#note1{
+top:0em;
+	width:0.5em;
+	margin-left:0.5em;
+}
+#bin{
+	margin-left:8em;
+	margin-top:-0.1em;
+	border-left:1px solid white;
+	border-right:1px solid white;
+	width:1.1em;
+	top:0em;
+	margin-left:0em;
+}
+
+	
+#my_image{	
+	float:right;
+	width:3em;
+margin-top:-74em;
+margin-right:-6.5em;
+}
+
+#user_mes{
+position:relative;
+font: 1.5em/0.5 times new roman,sans-serif;
+margin-left:-50px;
+margin-top:35em;
+}#lobby4{/*the triangle on the user message box */
+border-width:15px;
+left: 45%;
+	margin-left:9.3em;
+	margin-top:-5.2em;
+}
+#my_message{
+margin-left:2.8em;
+}
+
+#me_user{
+margin-top:1em;
+margin-left:20em;
+height:10px;
+padding-top:8px;
+}
+
+
+/*  nav end  */
+
+
+
+
+/*  gyftdchyld start */
+
+
+body {
+  background : url(../images/i5bg.JPG) no-repeat; 
+                  
+        clear: both;  
+         background-size: cover;
+         background-position: center center;
+           background-repeat: no-repeat;
+       background-attachment: fixed;
+           clear: both;
+           
+     font-family: verda;
+   background-color: white;
+   padding: 0px;
+}
+
+.col1,
+.col2,
+.col3 {
+font-size:7px;
+}
+
+
+
+
+#qq_rotate{
+display:none;
+}
+#shedle_rotate{
+display:none;
+}
+#fbk_rotate{
+display:none;
+}
+#tour_rotate{
+display:none;
+}
+
+#side_head{
+display:none;
+}
+
+#side_head2{
+display:none;
+}
+
+#tour{
+display:none;
+}
+
+#side_body{
+display:none;
+}
+
+#side_body2{
+display:none;
+}
+
+#side_foot{
+display:none;
+}
+
+.phone_vid{
+display:none;
+}
+
+#qcload{ 
+margin-left:-9em; 
+margin-top:3em;
+}
+
+
+
+
+#shdle{
+				margin-left:-22px;
+                 font-size:2.5em;
+        margin-top:2em;
+        width:349px;
+        color:black;
+          -webkit-border-radius: 14px;
+           box-shadow: 0px 10px 30px yellow;
+ 
+        color:black;
+          -webkit-border-radius: 14px;
+           box-shadow: 0px 10px 30px 
+		   
+}
+#pending{/*image for pending schedule*/
+margin-left:-4em;  
+margin-top:-31em;
+ }
+ 
+#shedule_pend{/*struct with pass buton an lock*/
+margin-left:-2em;
+Width:120px;
+background:#36bae0;
+border:3px solid white;
+-webkit-border-radius : 50px; 
+-webkit-border-radius :50px;
+-moz-border-radius : 50px;
+        -webkit-transform: rotate(360deg);
+-moz-transform: rotate(360deg);
+-o-transform: rotate (360deg);
+transition: 0.5s all ease-in-out;
+height:40px;
+padding:8px;
+margin-top:-16em;
+-webkit-box-shadow : 0 0px 10px rgba(0,0,0,0.8);
+-display:block;
+}
+
+
+#cancel_shdle{
+margin-left:-7em;
+margin-top:2em;
+text-align:center;
+font-size:5px;
+}
+
+
+
+#lock{
+
+}
+#pending2{
+clear: both;
+float:right;
+width:20em;
+height:8em;
+position:absolute;
+margin-top:-31.7em;
+margin-left:55.2em;  
+}
+
+#submit {
+  padding: 0.3rem;
+Font-size:10px;
+  }
+
+
+		
+		#fbk{
+  margin-left:-6px;
+                 font-size:5.8em;
+                 height:530px;
+        margin-top:4.6em;
+        width:900px;
+}
+
+#option{
+font-size:1em;
+}
+
+
+#feedback_post{
+				
+				margin-left:-22px;
+                 font-size:2em;
+        margin-top:1em;
+        width:349px;
+        color:black;
+          -webkit-border-radius: 14px;
+           box-shadow: 0px 10px 30px yellow;
+ 
+        color:black;
+          -webkit-border-radius: 14px;
+           box-shadow: 0px 10px 30px 
+        }
+
+
+#footer {
+
+        padding:7px;
+        text-align:right;
+        color:black;
+        float:left;
+        position:relative;
+        margin-left:-4px;
+		font-size:1em;
+	border:2px solid gold;
+		 -webkit-border-radius : 30px; 
+-webkit-border-radius :30px;
+-moz-border-radius : 30px;
+bottom:0%;
+ margin-bottom:-17em;
+text-align:center;
+width:355px;
+
+margin-right:-5px;
+}
+
+#wrapper{
+-webkit-box-shadow : 0 10px 10px rgba(0,0,0,0.3);
+background:#cccbc4;
+margin-top:10em;
+        width:365px;
+        margin:0 auto;
+		margin-left:-11px;
+        -webkit-border-radius : 40px; 
+-webkit-border-radius :40px;
+-moz-border-radius : 40px;
+border:2px solid gold;
+transition: 00.1s all ease-in-out;
+}
+
+label{
+font-size:3em;
+}
+#label_for_pc{
+display:none;	
+}
+legend{
+font-size:3em;
+}
+
+#option{
+font-size:3em;
+margin-left:5px;
+}
+input{
+	font-size:3em;
+	margin-top:5px;
+	margin-bottom:5px;
+	margin-left:5px;
+	margin-right:5px;
+}
+textarea{
+font-size:4em; 
+width:270px;
+}
+
+        form {
+Float:left;
+margin-left:3.5em;
+top:0em;
+Width:335px;
+font-size:63%;
+padding:2em;
+opacity:1;
+background:#66ccff;
+position:fixed;
+}
+
+  #dailynews{
+        margin-left: -6.2em;
+                margin-top: 2em;
+        }
+		
+		        #thisisthewaytotravel{
+        margin-left:-9em;
+        width:10px;
+        }
+		
+		        #sorry{
+				margin-left:-22px;
+                 font-size:2em;
+        margin-top:4.6em;
+        width:295px;
+        color:black;
+          -webkit-border-radius: 14px;
+           box-shadow: 0px 10px 30px yellow;
+ color:black;
+          -webkit-border-radius: 14px;
+           box-shadow: 0px 10px 30px 
+        }
+ #Sorry{
+	margin-left:-1em; 
+	font-size:2em;
+ }
+		
+		       #sorry2{
+          margin-left:-13px;
+                 font-size:1.7em;
+                 height:75px;
+        margin-top:5.5em;
+        width:280px;
+padding-top:1em
+          -webkit-border-radius: 14px;
+           box-shadow: 0px 10px 30px 
+        }
+ #Sorry2{
+	margin-left:0em; 
+ }		
+		       #errr{
+            margin-left:8px;
+                 font-size:1.6em;
+        margin-top:1em;
+        width:300px;
+        }
+		
+		#infobck{
+display:none;
+}
+
+#information{ 
+Border:2px solid #66ccff;
+         margin-left:-23px;
+                 font-size:2em;
+                 height:auto;
+        margin-top:4.6em;
+        width:347px;
+        color:black;
+          -webkit-border-radius: 14px;
+           box-shadow: 0px 10px 30px yellow;
+                background:white;
+				text-align: justify;
+				
+-webkit-box-shadow : 0 -5px 10px rgba(0,0,0,0.5);
+}#advettisment{ 
+         margin-left:-22px;
+                 font-size:2em;
+                 height:250px;
+        margin-top:4.6em;
+        width:347px;
+        color:black;
+          -webkit-border-radius: 14px;
+           box-shadow: 0px 10px 30px yellow;
+                background:white;
+}
+#mome_info{
+display:none;
+display:block;
+float:middle;
+width:345px;
+margin-top:8em;
+}
+			   
+			   #vid{
+width:26em;
+}
+
+#button1{
+display:none;
+}
+#button2 {
+display:none;
+}
+#button3{
+display:none;
+}
+
+.prez{
+display:none;
+}
+.prez2{
+display:none;
+}
+.pre3{
+display:none;
+}
+
+#resort_name{
+font-size:1em;
+}
+
+#r_name{
+font-size:2em;
+}
+
+#about_it{
+font-size:1em;
+letter-spacing:0.1px;
+}
+
+#about_it:after {
+Display:none;
+}
+#quick_cab{
+margin-left:-1em;
+width:340px;
+height:600px;
+margin-top:0em;
+}#quick_cab2{
+margin-left:-1em;
+width:340px;
+height:600px;
+margin-top:0em;
+}#phone_vid{
+Width:267px;
+Height:170px;
+Margin-left:2.6em;
+Margin-top:-51.5em;
+}#phone_vid2{
+Width:167px;
+Height:170px;
+Margin-left:2.6em;
+Margin-top:0.5em;
+}#phone_vid3{
+Width:167px;
+Height:170px;
+Margin-left:2.6em;
+Margin-top:0.5em;
+}
+
+#r_name{
+font-size:3em;
+}
+	 
+#button1{
+display:none;
+}
+#button2 {
+display:none;
+}
+#button3{
+display:none;
+}
+
+.prez{
+display:none;
+}
+.prez2{
+display:none;
+}
+.pre3{
+display:none;
+}
+
+#imgs_head { 
+display:none;
+}
+
+#sun{
+display:none;
+}
+#city{
+display:none;
+}
+
+#city2{
+display:none;
+}
+#city3{
+display:none;
+}
+
+#airport{
+display:none;
+}
+
+#road{
+display:none;
+}
+
+#passenger{
+display:none;
+}
+
+#passenger2{
+display:none;
+}
+
+#tour_page{
+display:none;
+}#tour_page2{
+display:none;
+}
+
+#shedule_page{
+display:none;
+}
+
+#feedback_page{
+display:none;
+}
+
+#me_driver{
+display:none;
+}
+
+#qq_rotate{
+display:none;
+}
+#shedle_rotate{
+display:none;
+}
+#fbk_rotate{
+display:none;
+}
+#tour_rotate{
+display:none;
+}
+
+#side_head{
+display:none;
+}
+
+#side_head2{
+display:none;
+}
+
+#tour{
+display:none;
+}
+
+#side_body{
+display:none;
+}
+
+#side_body2{
+display:none;
+}
+
+#side_foot{
+display:none;
+}
+
+.phone_vid{
+display:none;
+}	
+
+#rotate_to_toggle_view{
+width:355px;
+display:block;
+	font-size:2.5em;
+	margin-left:-0.9em;
+	color:black;
+		background:white;
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+ }
+ 
+ @media only screen 
+and (min-device-width : 411px) 
+and (max-device-width : 823px)
+and (orientation:portrait){
+#wrapper{
+	     width:400px;
+        }	
+#pending{/*image for pending schedule*/
+margin-left:-4em;  
+ }
+#footer{
+	width:390px;
+	margin-top:50em;
+}
+#mome_info{
+width:380px;	
+}	
+}
+/* nav start  */
+
+/*   gyftdchyld ends */
+
+
+
+/*   gyftdchyld landscape start */
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation:landscape){
+.col1 {
+font-size:12px;
+}
+#sun{
+display:none;
+}
+#imgs_head { 
+display:none;
+}
+
+#phone_imgs_head{ 
+display:block;
+background : transparent;      
+width:290px;
+height:11.2em;
+transition: 1.3s all ease-in-out;
+ -webkit-border-radius : 20px;
+margin-top:-1px;           
+clear: both; 
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+    box-shadow: 0px 0px 10px grey;
+	border-top:4px solid white;
+}
+ #hnav {/*home nav*/
+ float:middle;
+	padding:1px;
+	padding-right:0em;
+	margin-top:1em;
+	margin-left:-1px;
+	width:311px;
+	height:40px;
+	 margin-bottom:1em;
+	 box-shadow: 0px 1px 30px pink;
+}ul#hnav a{/*nav button*/
+
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.15rem;
+  margin-left:0em;
+  position: relative;
+}
+
+ #nav {
+ float:middle;
+	padding:1px;
+	padding-right:0em;
+	margin-top:1em;
+	margin-left:2px;
+	width:305px;
+	height:40px;
+	 margin-bottom:3em;
+-webkit-box-shadow : 0 5px 10px rgba(0,0,0,0.5);
+}ul#nav a{
+font-size: 1rem;
+  font-weight: bold;
+  padding: 0.3rem;
+  margin-left:0em;
+  position: relative;
+}
+
+#airport{
+display:block;
+left:-12em;
+}
+#road{
+width:555px;
+}
+#city2{
+display:block;
+margin-left:7em;
+margin-bottom:-7em;
+}
+
+#passenger{
+display:block;
+position:absolute;
+left:-28em;
+width:auto;
+
+}
+
+#df{
+display:block;
+}
+
+#wrapper{
+background:#99ff99;
+margin-top:10em;
+        width:557px;
+        margin:0 auto;
+		margin-left:-11px;
+        -webkit-border-radius : 40px; 
+-webkit-border-radius :40px;
+-moz-border-radius : 40px;
+border:2px solid aqua;
+
+  transition: 0s all ease-in-out;
+
+}
+
+
+#qq_rotate{
+display:block;
+float:right;
+width:230px;
+background:white;
+height:425px;
+margin-right:5px;
+margin-top:-16em;
+position:relative;
+      -webkit-border-radius : 40px; 
+-webkit-border-radius :40px;
+-moz-border-radius : 40px;
+-webkit-box-shadow : 0 0px 10px rgba(0,0,0,0.5);
+border-top:5px solid blue;
+}
+
+#shedle_rotate{
+display:block;
+float:right;
+width:230px;
+background:white;
+height:428px;
+margin-right:5px;
+margin-top:-16em;
+position:relative;
+      -webkit-border-radius : 40px; 
+-webkit-border-radius :40px;
+-moz-border-radius : 40px;
+-webkit-box-shadow : 0 0px 10px rgba(0,0,0,0.5);
+border-top:5px solid blue;
+}
+
+#fbk_rotate{
+display:block;
+float:right;
+width:230px;
+background:white;
+height:428px;
+margin-top:-16em;
+position:relative;
+      -webkit-border-radius : 40px; 
+-webkit-border-radius :40px;
+-moz-border-radius : 40px;
+-webkit-box-shadow : 0 0px 10px rgba(0,0,0,0.5);
+border-top:5px solid blue;
+}
+
+#tour_rotate{
+display:block;
+float:right;
+width:230px;
+background:white;
+height:370px;
+margin-right:5px;
+margin-top:-16em;
+position:relative;
+      -webkit-border-radius : 40px; 
+-webkit-border-radius :40px;
+-moz-border-radius : 40px;
+-webkit-box-shadow : 0 0px 10px rgba(0,0,0,0.5);
+border-top:5px solid blue;
+}
+
+
+
+#mome_info{
+display:none;
+}
+
+#contact{
+		
+		}
+
+.phone_vid{
+display:block;
+}
+#phone_vid{
+Width:267px;
+Height:170px;
+Margin-left:-0.1em;
+Margin-top:-51.5em;
+}#phone_vid2{
+Width:167px;
+Height:170px;
+Margin-left:-0.1em;
+Margin-top:0.5em;
+}#phone_vid3{
+Width:167px;
+Height:170px;
+Margin-left:-0.1em;
+Margin-top:0.5em;
+}
+
+
+#about_it{
+font-size:1em;
+letter-spacing:0.1px;
+}#about_it:after {
+top: 62.3%;
+border-width: 15;
+}
+
+#resort_name{
+font-size:1em;
+}#r_name{
+font-size:1em;
+}
+  
+#vid{
+width:26em;
+}
+
+ #errr{
+            margin-left:-23px;
+                 font-size:2em;
+        margin-top:0.2em;
+        width:300px;
+}
+#c_error{
+
+}
+
+.error {
+        color: #FF1400;
+}
+#sorry{
+				
+				left:-22em;
+                 font-size:2em;
+        margin-top:4.6em;
+        width:295px;
+        color:black;
+          -webkit-border-radius: 14px;
+           box-shadow: 0px 10px 30px yellow;
+ 
+          -webkit-border-radius: 14px;
+           box-shadow: 0px 10px 30px 
+}
+ #Sorry{
+	margin-left:-1.1em; 
+	font-size:1.7em;
+	width:290px;
+ }
+#sorry2{
+          left:-130em;
+                 font-size:1.7em;
+                 height:75px;
+        margin-top:25.5em;
+        width:280px;
+padding-top:1em
+          -webkit-border-radius: 14px;
+           box-shadow: 0px 10px 30px 
+}
+ #Sorry2{
+	margin-left:-1.2em; 
+	width:290px;
+ }
+
+#feedback_post{
+				
+				margin-left:-22px;
+                 font-size:2em;
+        margin-top:-4.5em;
+        width:293px;
+        color:black;
+          -webkit-border-radius: 14px;
+           box-shadow: 0px 10px 30px yellow;
+ 
+        color:black;
+          -webkit-border-radius: 14px;
+           box-shadow: 0px 10px 30px 
+ }
+		
+#thisisthewaytotravel{
+        margin-left:-9em;
+        width:10px;       
+ }
+ 
+#dailynews{
+        margin-left: -6.2em;
+                margin-top: 2em;
+}
+
+label{
+font-size:1em;
+}
+
+#option{
+font-size:1em;
+}
+input{
+font-size:1em;
+}
+textarea{
+font-size:2em; 
+width:270px;
+}
+
+form {
+Float:left;
+left:-1em;
+top:-1em;
+Width:308px;
+padding:0.5em;
+opacity:1;
+background:#66ccff;
+position:fixed;
+}
+legend{
+font-size:1em;
+}
+
+body {
+  background : url(../images/phonebg.JPG) no-repeat; 
+                  
+        clear: both; 
+         background-position: center center;
+           background-repeat: no-repeat;
+       background-attachment: fixed;
+           clear: both;
+           
+     font-family: verda;
+   background-color: white;
+   padding: 0px;
+}
+
+#fbk{
+  margin-left:-6px;
+                 font-size:5.8em;
+                 height:530px;
+        margin-top:4.6em;
+        width:900px;               
+}
+
+#qcload{ 
+margin-left:-9em; 
+margin-top:3em;
+}
+
+
+
+#information{ 
+Border:2px solid #66ccff;
+         margin-left:-23px;
+                 font-size:2em;
+                 height:auto;
+        margin-top:-4em;
+        width:305px;
+        color:black;
+          -webkit-border-radius: 14px;
+           box-shadow: 0px 10px 30px yellow;
+                background:white;
+				text-align: justify;
+				
+-webkit-box-shadow : 0 -5px 10px rgba(0,0,0,0.5);
+}#advettisment{ 
+         margin-left:-22px;
+                 font-size:2em;
+                 height:250px;
+        margin-top:-4em;
+        width:295px;
+        color:black;
+          -webkit-border-radius: 14px;
+           box-shadow: 0px 10px 30px yellow;
+                background:white;
+}
+#mi{ /*info to display form*/
+margin-top:-6em;
+width:290px;
+margin-left:0.001px;
+}
+
+#footer {
+        margin-right:-0.001em;
+        width:525px;
+}
+
+#shdle{
+				
+				margin-left:-22px;
+                 font-size:2em;
+        margin-top:-4.5em;
+        width:293px;
+        color:black;
+          -webkit-border-radius: 14px;
+           box-shadow: 0px 10px 30px yellow;
+ 
+        color:black;
+          -webkit-border-radius: 14px;
+           box-shadow: 0px 10px 30px 
+ }
+#pending{/*image for pending schedule*/
+margin-left:28em;  
+margin-top:-31em;
+ }
+ 
+#shedule_pend{/*struct with pass buton an lock*/
+margin-left:23.5em;
+Width:120px;
+background:#36bae0;
+border:3px solid white;
+-webkit-border-radius : 50px; 
+-webkit-border-radius :50px;
+-moz-border-radius : 50px;
+        -webkit-transform: rotate(360deg);
+-moz-transform: rotate(360deg);
+-o-transform: rotate (360deg);
+transition: 0.5s all ease-in-out;
+height:40px;
+padding:8px;
+margin-top:-16em;
+-webkit-box-shadow : 0 0px 10px rgba(0,0,0,0.8);
+-display:block;
+}
+
+
+#cancel_shdle{
+top:2em;
+left:-2.5em;
+width:180px;
+margin-top:-0.6em;
+text-align:center;
+font-size:12px;
+}
+/*   gyftdchyld landscape ends */
+
+/*things to not display in lansacpe phone mode*/
+
+#button1{
+display:none;
+}
+#button2 {
+display:none;
+}
+#button3{
+display:none;
+}
+.prez{
+display:none;
+}
+.prez2{
+display:none;
+}
+.pre3{
+display:none;
+}
+
+#infobck{
+display:none;
+}
+#side_body{
+display:none;
+}
+
+#side_body2{
+display:none;
+}
+
+#side_foot{
+display:none;
+}
+/*   gyftdchyld landscape ends */
+
+
+
+#drvr_image{
+width:3.5em;
+top:-6em;
+margin-left:23em;
+}#drvr_image:hover{
+	top:-17em;
+    margin-left:8.5em;	
+	width:225px;
+	}#driver_msg{
+	margin-left:11em;
+	padding-left:5px;
+	margin-top:51em;
+	position:absolute;
+	} 
+#lobby5{
+display:block;
+border-width:15px;
+	margin-left:12em;
+	margin-top:58em;
+	        -webkit-transform: rotate(213deg);
+-moz-transform: rotate(160deg);
+-o-transform: rotate (160deg);
+}
+
+#me_driver{
+display:none;
+}
+
+	#lobby_exit{
+top:-11.5em;
+margin-left:4em;
+position:relative;
+}	
+#note1{
+top:3.4em;
+	width:0.5em;
+	margin-left:0em;
+}
+#bin{
+	left:1em;
+	margin-top:-0.1em;
+	border-left:1px solid white;
+	border-right:1px solid white;
+	width:1.1em;
+	top:43.3em;
+	margin-left:0em;
+}
+
+	
+#my_image{	
+
+}
+
+#user_mes{
+margin-left:50px;
+margin-top:3em;
+}#lobby4{/*the triangle on the user message box */
+	margin-left:9.2em;
+	margin-top:-14em;
+	position:absolute;
+	        -webkit-transform: rotate(310deg);
+-moz-transform: rotate(160deg);
+-o-transform: rotate (160deg);
+}
+#my_message{
+margin-left:16.5em;
+margin-top:-16em;
+position:absolute;
+}
+
+#me_user{
+display:none;
+}	
+
+#phone_vid{
+display:none;
+}#phone_vid2{
+display:none;
+}#phone_vid3{
+display:none;
+}
+#quick_cab{
+display:none;
+}
+
+#quick_cab2{
+display:none;
+}
+
+}
+
+
+#wrapper{
+background:green;
+}

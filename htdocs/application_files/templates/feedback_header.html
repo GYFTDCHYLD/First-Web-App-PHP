@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+<head><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/> <!--320-->
+<meta name="HandheldFriendly" content="true" />
+    <meta charset="utf-8">
+	
+	<title>feedback</title>
+		<script src="js/modernizr.custom.js"></script>  
+		
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css"href="css/gyftdchyld.css"  media="screen,projection" />
+	<link rel="stylesheet" type="text/css"href="css/nav.css"  media="screen,projection" />
+	<link rel="stylesheet" type="text/css" href="css/iphone4.css"  media="only screen and (min-device-width : 320px)and (max-device-width : 577px)" />
+	<link rel="stylesheet" type="text/css" href="css/iphone5.css"  media="only screen and (min-device-width : 320px)and (max-device-width : 568px)" />
+	<link rel="stylesheet" type="text/css" href="css/phone(360v640).css"  media="only screen and (min-device-width : 360px)and (max-device-width : 640px)" />
+	<link rel="stylesheet" type="text/css" href="css/iphone6-8.css" media="only screen and (min-device-width : 375px)and (max-device-width : 667px)" />
+	<link rel="stylesheet" type="text/css" href="css/iphone6-8+.css"  media="only screen and (min-device-width : 414px)and (max-device-width : 736px)" />
+	<script type='text/javascript' src='scripts/js/popup.js'></script>
+		<script type="text/javascript" src="scripts/js/auto_request_handle.js"></script>
+<script type="text/javascript">
+$(function() {
+$('div.caption button').click(function(){
+$(this).closest('div.module').find('div.body')
+.toggle('slow',function(){
+$(this).closest('div.module')
+.toggleClass('rolledup',$(this).is(':hidden'));
+});
+});
+});
+</script>
+</head>
+<marquee id="phone_imgs_head"  behavior="slide" direction="down" scrollamount="20"><img src="images/head1.png" id="phone_imgs_head" ></marquee>
+<div id="wrapper">
+<center><img src="images/head.png" id ="imgs_head" ></center>
+<body>
+	<div id="sun"><marquee behavior="scroll" direction="left" scrollamount="1" ><img src="images/star.png"  width="100" ></marquee></div>
+	<div id="header">
+		
+		<ul id="nav">
+		<li><a href="index"><font color = "blue" size="">HOME</font></a></li>
+		 <li><a href="tour"><font color = "black" size="">TOURS</font></a></li>
+			
+			<li><a href="shedule"><font color = "magenta" size="">SHEDULE</font></a></li>
+			<li><a href="quickcab"><font color = "green" size="">QUICK CAB</font></a></li> 
+			
+	</div><!-- header -->
+	
+	
+<marquee id="feedback_page" behavior="slide" direction="left" scrollamount="20"><img src="images/feedback.png" width="100" /></marquee>
+	
+	<div class="module" id="module">
+<div class="caption" id="caption">
+<div class="body" id="mi">
+<font >Complete form & <font color = "red">Submit </font>Your feedback.....</font><a href=javascript:fg_popup_form("fg_formContainer","fg_form_InnerContainer","fg_backgroundpopup")><button><img src="images/DF.png" width ="100em" id= "df"></button></a>
+</div>
+</div>
+</div>
+
+      <header>
+       <a class="logo"></a>
+          </header>
+             <section id="demos">
+                <ul>
+                   
+               
+			   <div class="button" data-n="0" id="button1"></div>
+			        <div class="demo prez">
+				</div>
+                
+         
+		   	 <div class="button" data-n="1" id="button3"></div>
+                  <div class="demo prez2">
+             </div>
+        
+        
+		
+         
+		
+  
+      
+		   </ul>
+  </section>
+	
+	<div >
+	<div id='fg_formContainer'>
+    <div id="fg_container_header">
+        
+
+    
+
+    <div id="fg_form_InnerContainer">
+	<form action="feedback.php" method="post" id="feedbackform">
+	<center><h2><fieldset><legend><div id= "neon"><font ><script language="JavaScript1.2">
+
+/*
+Neon Lights Text
+By JavaScript Kit (http://javascriptkit.com)
+For this script, TOS, and 100s more DHTML scripts,
+Visit http://www.dynamicdrive.com
+*/
+
+var message="FEEDBACK"
+var neonbasecolor="black"
+var neontextcolor="aqua"
+var flashspeed=200  //in milliseconds
+
+///No need to edit below this line/////
+
+var n=0
+if (document.all||document.getElementById){
+document.write('<font color="'+neonbasecolor+'">')
+for (m=0;m<message.length;m++)
+document.write('<span id="neonlight'+m+'">'+message.charAt(m)+'</span>')
+document.write('</font>')
+}
+else
+document.write(message)
+
+function crossref(number){
+var crossobj=document.all? eval("document.all.neonlight"+number) : document.getElementById("neonlight"+number)
+return crossobj
+}
+
+function neon(){
+
+//Change all letters to base color
+if (n==0){
+for (m=0;m<message.length;m++)
+//eval("document.all.neonlight"+m).style.color=neonbasecolor
+crossref(m).style.color=neonbasecolor
+}
+
+//cycle through and change individual letters to neon color
+crossref(n).style.color=neontextcolor
+
+if (n<message.length-1)
+n++
+else{
+n=0
+clearInterval(flashing)
+setTimeout("beginneon()",1)
+return
+}
+}
+
+function beginneon(){
+if (document.all||document.getElementById)
+flashing=setInterval("neon()",flashspeed)
+}
+beginneon()
+
+
+</script></div></legend></fieldset></font></h2></center>
+	<br />
+	<strong>
+	<p><fieldset><select name="title" id = "option" title="SELECT YOUR NAME TITLE"  required>
+	<option></option>
+	<option value="Mr.">Mr.</option>
+	<option value="Miss.">Miss.</option>
+	<option value="Mrs.">Mrs.</option>
+	</select> <input type="text" name="name" size="10" title="ENTER YOUR SURNAME" maxlength=20 min=3 pattern="^[a-zA-Z]'?[- 'a-zA-Z]+$" placeholder="Surname"  required />
+	<label for="name">Surname</label></p>
+	
+	<center><fieldset><select name="response" id = "option" title="SELECT YOUR RESPONSE"  required >
+	<option ></option>
+	<option value=': "Excellent"'> Excellent </option>
+	<option value=': "Good"' > Good </option>
+	<option value=': "Satisfactory"' > Satisfactory </option>
+	<option value=': "Poor" '> Poor </option>
+	<option value=': "Other" '> Other </option></select><label> <center>........response........</center></label></fieldset>
+
+<textarea name="quote" rows="5" cols="31" title="ENTER YOUR COMMENT" maxlength=130  required ></textarea><br /><strong><label>
+Enter your comment here.</label></center>
+	<input type="submit" name="submit" id="submit" value="feedback" /><img src="images/gc.png" width ="150em" align="right">
+	
+</form>
+
+</div> 
+    </div>
+</div>
+<!-- client-side Form Validations:
+Uses the excellent form validation script from JavaScript-coder.com-->
+
+
+
+<div id='fg_backgroundpopup'></div>
+
+
+<script src="scripts/js/oridomi.min.js"></script>
+  <script src="scripts/js/anim.js"></script>
+  <script>
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-33974399-1']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+<div id= "fbk_rotate"><center><font size="4em"><u>FEEDBACK</u></font></center>
+  <div id='phone_vid_for_feefback_page'>
+	<div id='phone_vid'>
+	   <video  autoplay loop width = 262>
+          <source src='video/ep.mp4'>
+          <source src='video/ep.webm'>
+       </video>
+	</div>
+    <div id='phone_vid2'>
+       <video  autoplay loop   width = 262 >
+          <source src='video/loby.mp4'>
+          <source src='video/loby.webm'>
+       </video>
+	</div>
+    <div id='phone_vid3'>
+       <video  autoplay loop   width = 262 >
+          <source src='video/loby.mp4'>
+          <source src='video/loby.webm'>
+       </video>
+	</div>
+  </div>
+</div>
+	<div id="content">	
+ 		<!-- BEGIN CHANGEABLE CONTENT. -->
+		<!-- Script 8.2 - header.html -->

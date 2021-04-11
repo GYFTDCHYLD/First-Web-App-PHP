@@ -1,0 +1,123 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    background-image: url();
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+.menu-bar{
+    background: rgb(050,040,050);
+    text-align: center;
+
+}
+
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: ##fff;
+}
+
+.menu-bar ul li{
+    width: 120px;
+    margin:10px;;
+    padding:15px;
+}
+
+.menu-bar ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.active, .menu-bar ul li:hover{
+    background: #000;
+    border-radius: 25px 25px 0px 0px;
+
+}
+
+.menu-bar .fa{
+    margin-right: 8px;
+    color: #fff;
+    background: #000;
+
+}
+
+.about-us-sub-menu{
+    display:none;
+}
+
+.menu-bar ul li:hover .about-us-sub-menu{
+    display:block;
+    position: absolute;
+    background: rgb(050,040,050);
+    margin-top:15px;
+    margin-left:-20px;
+    border-radius: 0px 0px 25px 25px;
+}
+
+.menu-bar ul li:hover .about-us-sub-menu ul{
+    display:block;
+}
+
+.menu-bar ul li:hover .about-us-sub-menu li{
+    padding:10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+
+.menu-bar ul li:hover .about-us-sub-menu ul{
+    display:block;
+}
+
+.menu-bar ul li:hover .about-us-sub-menu li{
+    padding:10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+
+.menu-bar ul li:hover .about-us-sub-menu li:child{
+    border-radius: 0px 0px 25px 25px;
+}
+}
+
+.menu-bar ul li:hover .about-us-sub-menu li:last-child{
+    border-bottom: none;
+}
+
+.menu-bar ul li:hover .about-us-sub-menu li a:hover{
+    color: aqua;
+}
+
+
+.webDesigning-sub-menu{
+    display:none;
+}
+
+.webDesigning-hover .webDesigning-sub-menu li{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background-color: rgb(050,040,050);
+
+}
+
+
+#dropdown{
+  position: absolute;
+  display: block;
+  margin-top: -40px;
+  margin-left: 140px;
+  background-color: rgb(050,040,050);
+
+}

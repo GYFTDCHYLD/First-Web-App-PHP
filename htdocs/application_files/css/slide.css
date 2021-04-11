@@ -1,0 +1,128 @@
+.cbp-fwslider {
+	position: relative;
+	margin: 0 0 10px;
+	overflow: hidden;
+	padding: 40px 0 10px;
+}
+
+.cbp-fwslider ul {
+	margin: 0;
+	padding: 0;
+	white-space: nowrap;
+	list-style-type: none;
+}
+
+
+.cbp-fwslider ul li {
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	transform: translateZ(0);
+	float: left;
+	display: block;
+	margin: 0;
+	padding: 0;
+}@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px){
+.cbp-fwslider ul li {
+
+}}
+
+.cbp-fwslider ul li > a,
+.cbp-fwslider ul li > div {
+	display: block;
+	text-align: center;
+	outline: none;
+}
+
+.cbp-fwslider ul li > a img {
+	border: none;
+	display: block;
+	margin: 0 auto;
+	max-width: 70%;
+}@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px){
+.cbp-fwslider ul li > a img {
+	border: none;
+	display: block;
+	margin: 0 auto;
+	width: 130%;
+}}
+
+/* navigator*/
+.cbp-fwslider nav span {
+-webkit-border-radius : 20px;
+-moz-border-radius : 20px;
+	-webkit-border-radius : 20px;
+	position: absolute;
+	top: 50%;
+	width: 40px;
+	height: 50px;
+	background: pink;
+	color: #fff;
+	font-size: 40px;
+	text-align: center;
+	margin-top: -50px;
+	line-height: 50px;
+	cursor: pointer;
+	font-weight: normal;
+	transition: 2.3s all ease-in-out;
+	border:2px solid gold;
+	
+	
+}@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px){
+.cbp-fwslider nav span {
+width: 20px;
+height:40px;
+font-size: 10px;
+
+}}
+
+
+.cbp-fwslider nav span:hover {
+	background: #378fc3;
+	box-shadow: 0px 1px 30px yellow;
+}
+
+.cbp-fwslider nav span.cbp-fwnext {
+	right: 0px;
+}
+
+.cbp-fwslider nav span.cbp-fwprev {
+	left: 0px;
+}
+
+.cbp-fwdots {
+	position: absolute;
+	bottom: 0px;
+	white-space: nowrap;
+	text-align: center;
+	width: 100%;
+}
+
+/* navigation dots   */
+.cbp-fwdots span {
+	display: inline-block;
+	width: 4px;
+	height: 4px;
+	background: gold;
+	margin: 2px;
+	border-radius: 100%;
+	cursor: pointer;
+	
+}
+
+.cbp-fwdots span:hover {
+	background: #999;
+}
+
+.cbp-fwdots span.cbp-fwcurrent {
+	background: green;
+	box-shadow: 0 0 0 2px #47a3da;
+	-webkit-transition: box-shadow 0.2s ease-in-out;
+	-moz-transition: box-shadow 0.2s ease-in-out;
+	transition: box-shadow 0.2s ease-in-out;
+}
